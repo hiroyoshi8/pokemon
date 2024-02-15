@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/no_alcohol.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cart">
+        <a href="home.html"><i class="bi bi-house" id="cart1"></i></a>
+        <i class="bi bi-cart" id="cart2"></i>
+    </div>
+
+    <div class="order">
+        <div class="close1">×</div>
+        <table id="table">
+            <h3>注文確認</h3>
+            <table class="tables">
+                <tr>
+                    <th>商品名</th>
+                    <th>数量</th>
+                    <th>価格</th>
+                    <th>金額</th>
+                </tr>
+            </table>
+            <dl>
+                <dt>合計金額</dt>
+                <dd><span class="qaz"></span>円</dd>
+            </dl>
+        </table>
+        <button class="decision">注文する</button>
+    </div>
+    <div class="order_img">
+        <img src="../img/注文確認.png" alt="" id="kk">
+    </div>
+    <div class="tab">
+        <div class="scroll">
+            <ul>
+                <div class="scroll_item">
+                    <li>
+                        <label class="no95">
+                            <img src="../img/定番!ハニートースト.png" alt="定番!ハニートースト">
+                            <p>定番!ハニートースト</p>
+                        </label>
+                        <div class="ono95" id="pop">
+                            <div class="close">×</div>
+                            <img src="../img/定番!ハニートースト.png" alt="定番!ハニートースト">
+                            <div class="price">
+                                <p><span id="sum">490</span>円</p>
+                            </div>
+                            <div class="spinner-container">
+                                <span class="spinner-sub">-</span>
+                                <input class="spinner" type="number" min="1" max="10" value="1">
+                                <span class="spinner-add">+</span>
+                            </div>
+                            <button type="submit" class="button1">注文</button>
+                        </div>
+                    </li>
+                    <li>
+                        <label class="no96">
+                            <img src="../img/ふわふわパンケーキ.png" alt="ふわふわパンケーキ">
+                            <p>ふわふわパンケーキ</p>
+                        </label>
+                        <div class="ono96" id="pop">
+                            <div class="close">×</div>
+                            <img src="../img/ふわふわパンケーキ.png" alt="ふわふわパンケーキ">
+                            <div class="price">
+                                <p><span id="sum">490</span>円</p>
+                            </div>
+                            <div class="spinner-container">
+                                <span class="spinner-sub">-</span>
+                                <input class="spinner" type="number" min="1" max="10" value="1">
+                                <span class="spinner-add">+</span>
+                            </div>
+                            <button type="submit" class="button1">注文</button>
+                        </div>
+                    </li>
+                    <li>
+                        <label class="no97">
+                            <img src="../img/自家製ティラミス.png" alt="自家製ティラミス">
+                            <p>自家製ティラミス</p>
+                        </label>
+                        <div class="ono97" id="pop">
+                            <div class="close">×</div>
+                            <img src="../img/自家製ティラミス.png" alt="自家製ティラミス">
+                            <div class="price">
+                                <p><span id="sum">390</span>円</p>
+                            </div>
+                            <div class="spinner-container">
+                                <span class="spinner-sub">-</span>
+                                <input class="spinner" type="number" min="1" max="10" value="1">
+                                <span class="spinner-add">+</span>
+                            </div>
+                            <button type="submit" class="button1">注文</button>
+                        </div>
+                    </li>
+                    <li>
+                        <label class="no98">
+                            <img src="../img/ひとくちアイス　バニラ.png" alt="ひとくちアイス　バニラ">
+                            <p>ひとくちアイス　バニラ</p>
+                        </label>
+                        <div class="ono98" id="pop">
+                            <div class="close">×</div>
+                            <img src="../img/ひとくちアイス　バニラ.png" alt="ひとくちアイス　バニラ">
+                            <div class="price">
+                                <p><span id="sum">320</span>円</p>
+                            </div>
+                            <div class="spinner-container">
+                                <span class="spinner-sub">-</span>
+                                <input class="spinner" type="number" min="1" max="10" value="1">
+                                <span class="spinner-add">+</span>
+                            </div>
+                            <button type="submit" class="button1">注文</button>
+                        </div>
+                    </li>
+                    <li>
+                        <label class="no99">
+                            <img src="../img/ひとくちアイス　チョコ.png" alt="ひとくちアイス　チョコ">
+                            <p>ひとくちアイス　チョコ</p>
+                        </label>
+                        <div class="ono99" id="pop">
+                            <div class="close">×</div>
+                            <img src="../img/ひとくちアイス　チョコ.png" alt="ひとくちアイス　チョコ">
+                            <div class="price">
+                                <p><span id="sum">320</span>円</p>
+                            </div>
+                            <div class="spinner-container">
+                                <span class="spinner-sub">-</span>
+                                <input class="spinner" type="number" min="1" max="10" value="1">
+                                <span class="spinner-add">+</span>
+                            </div>
+                            <button type="submit" class="button1">注文</button>
+                        </div>
+                    </li>
+                </div>
+                <div class="scroll_item">
+                    <li>
+                        <label class="no100">
+                            <img src="../img/ひとくちアイス　抹茶.png" alt="ひとくちアイス　抹茶">
+                            <p>ひとくちアイス　抹茶</p>
+                        </label>
+                        <div class="ono100" id="pop">
+                            <div class="close">×</div>
+                            <img src="../img/ひとくちアイス　抹茶.png" alt="ひとくちアイス　抹茶">
+                            <div class="price">
+                                <p><span id="sum">320</span>円</p>
+                            </div>
+                            <div class="spinner-container">
+                                <span class="spinner-sub">-</span>
+                                <input class="spinner" type="number" min="1" max="10" value="1">
+                                <span class="spinner-add">+</span>
+                            </div>
+                            <button type="submit" class="button1">注文</button>
+                        </div>
+                    </li>
+                    <li>
+                        <label class="no101">
+                            <img src="../img/ひとくちアイス　ストロベリー.png" alt="ひとくちアイス　ストロベリー">
+                            <p>ひとくちアイス　ストロベリー</p>
+                        </label>
+                        <div class="ono101" id="pop">
+                            <div class="close">×</div>
+                            <img src="../img/ひとくちアイス　ストロベリー.png" alt="ひとくちアイス　ストロベリー">
+                            <div class="price">
+                                <p><span id="sum">320</span>円</p>
+                            </div>
+                            <div class="spinner-container">
+                                <span class="spinner-sub">-</span>
+                                <input class="spinner" type="number" min="1" max="10" value="1">
+                                <span class="spinner-add">+</span>
+                            </div>
+                            <button type="submit" class="button1">注文</button>
+                        </div>
+                    </li>
+                    <li>
+                        <label class="no102">
+                            <img src="../img/めっちゃまっちゃなまっちゃんパフェ.png" alt="めっちゃまっちゃなまっちゃんパフェ">
+                            <p>めっちゃまっちゃなまっちゃんパフェ</p>
+                        </label>
+                        <div class="ono102" id="pop">
+                            <div class="close">×</div>
+                            <img src="../img/めっちゃまっちゃなまっちゃんパフェ.png" alt="めっちゃまっちゃなまっちゃんパフェ">
+                            <div class="price">
+                                <p><span id="sum">580</span>円</p>
+                            </div>
+                            <div class="spinner-container">
+                                <span class="spinner-sub">-</span>
+                                <input class="spinner" type="number" min="1" max="10" value="1">
+                                <span class="spinner-add">+</span>
+                            </div>
+                            <button type="submit" class="button1">注文</button>
+                        </div>
+                    </li>
+                    <li>
+                        <label class="no103">
+                            <img src="../img/しっとりチーズケーキ.png" alt="しっとりチーズケーキ">
+                            <p>しっとりチーズケーキ</p>
+                        </label>
+                        <div class="ono103" id="pop">
+                            <div class="close">×</div>
+                            <img src="../img/しっとりチーズケーキ.png" alt="しっとりチーズケーキ">
+                            <div class="price">
+                                <p><span id="sum">380</span>円</p>
+                            </div>
+                            <div class="spinner-container">
+                                <span class="spinner-sub">-</span>
+                                <input class="spinner" type="number" min="1" max="10" value="1">
+                                <span class="spinner-add">+</span>
+                            </div>
+                            <button type="submit" class="button1">注文</button>
+                        </div>
+                    </li>
+                    <li>
+                        <label class="no104">
+                            <img src="../img/濃厚生チョコケーキ.png" alt="濃厚生チョコケーキ">
+                            <p>濃厚生チョコケーキ</p>
+                        </label>
+                        <div class="ono104" id="pop">
+                            <div class="close">×</div>
+                            <img src="../img/濃厚生チョコケーキ.png" alt="濃厚生チョコケーキ">
+                            <div class="price">
+                                <p><span id="sum">380</span>円</p>
+                            </div>
+                            <div class="spinner-container">
+                                <span class="spinner-sub">-</span>
+                                <input class="spinner" type="number" min="1" max="10" value="1">
+                                <span class="spinner-add">+</span>
+                            </div>
+                            <button type="submit" class="button1">注文</button>
+                        </div>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="../js/pop.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<html>
+<head><link rel="stylesheet" href="../css/login.css"></head>
+<body>
+<!--
+<%!
+String year = (new java.text.SimpleDateFormat("yyyy年MM月dd日").format(new java.util.Date())); 
+UserBean user = new UserBean(year);
+%>
+
+<%
+out.print(year);
+%>
+-->
+
+<div class="main">
+    <h1>卓上にある番号とパスワードを入力してください。</h1>
+    <form action="UserLoginSrv" method="post">
+        <h2><span>卓番号:</span><input type="text" name="tNum"></h2>
+        <h2><span>パスワード:</span><input type="password" name="pass"></h2>
+        <h2>人数：<SELECT NAME="np">
+            <OPTION VALUE="" selected></OPTION>
+            <OPTION VALUE="1">1</OPTION>
+            <OPTION VALUE="2">2</OPTION>
+            <OPTION VALUE="3">3</OPTION>
+            <OPTION VALUE="4">4</OPTION>
+            <OPTION VALUE="5">5</OPTION>
+            <OPTION VALUE="6">6</OPTION>
+            <OPTION VALUE="7">7</OPTION>
+            <OPTION VALUE="8">8</OPTION>
+            <OPTION VALUE="9">9</OPTION>
+		</SELECT></h2><br>
+        <input type="hidden" name="mode" value="log">
+        <input type="submit" value="ログイン">
+    </form>
+</div>
+</body>
+</html>

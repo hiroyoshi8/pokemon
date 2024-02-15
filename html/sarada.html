@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/sarada.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cart">
+        <a href="home.html"><i class="bi bi-house" id="cart1"></i></a>
+        <i class="bi bi-cart" id="cart2"></i>
+    </div>
+
+    <div class="order">
+        <div class="close1">×</div>
+        <table id="table">
+            <h3>注文確認</h3>
+            <table class="tables">
+                <tr>
+                    <th>商品名</th>
+                    <th>数量</th>
+                    <th>価格</th>
+                    <th>金額</th>
+                </tr>
+            </table>
+            <dl>
+                <dt>合計金額</dt>
+                <dd><span class="qaz"></span>円</dd>
+            </dl>
+        </table>
+        <button class="decision">注文する</button>
+    </div>
+    <div class="order_img">
+        <img src="../img/注文確認.png" alt="" id="kk">
+    </div>
+
+    <div class="tab">
+        <div class="scroll">
+            <ul>
+                <div class="scroll_item">
+                    <li>
+                        <label class="no83">
+                            <img src="../img/3種のチーズのシーザーサラダ.png" alt="3種のチーズのシーザーサラダ">
+                            <p>3種のチーズのシーザーサラダ</p>
+                        </label>
+                        <div class="ono83" id="pop">
+                            <div class="close">×</div>
+                            <img src="../img/3種のチーズのシーザーサラダ.png" alt="3種のチーズのシーザーサラダ">
+                            <div class="price">
+                                <p><span id="sum">480</span>円</p>
+                            </div>
+                            <div class="spinner-container">
+                                <span class="spinner-sub">-</span>
+                                <input class="spinner" type="number" min="1" max="10" value="1">
+                                <span class="spinner-add">+</span>
+                            </div>
+                            <button type="submit" class="button1">注文</button>
+                        </div>
+                    </li>
+                    <li>
+                        <label class="no84">
+                            <img src="../img/塩だれきゅうりのチョレギサラダ.png" alt="塩だれきゅうりのチョレギサラダ">
+                            <p>塩だれきゅうりのチョレギサラダ</p>
+                        </label>
+                        <div class="ono84" id="pop">
+                            <div class="close">×</div>
+                            <img src="../img/塩だれきゅうりのチョレギサラダ.png" alt="塩だれきゅうりのチョレギサラダ">
+                            <div class="price">
+                                <p><span id="sum">480</span>円</p>
+                            </div>
+                            <div class="spinner-container">
+                                <span class="spinner-sub">-</span>
+                                <input class="spinner" type="number" min="1" max="10" value="1">
+                                <span class="spinner-add">+</span>
+                            </div>
+                            <button type="submit" class="button1">注文</button>
+                        </div>
+                    </li>
+                </div>
+                <div class="scroll_item">
+                    <li>
+                        <label class="no85">
+                            <img src="../img/炙りサーモンの韓国風サラダ.png" alt="炙りサーモンの韓国風サラダ">
+                            <p>炙りサーモンの韓国風サラダ</p>
+                        </label>
+                        <div class="ono85" id="pop">
+                            <div class="close">×</div>
+                            <img src="../img/炙りサーモンの韓国風サラダ.png" alt="炙りサーモンの韓国風サラダ">
+                            <div class="price">
+                                <p><span id="sum">480</span>円</p>
+                            </div>
+                            <div class="spinner-container">
+                                <span class="spinner-sub">-</span>
+                                <input class="spinner" type="number" min="1" max="10" value="1">
+                                <span class="spinner-add">+</span>
+                            </div>
+                            <button type="submit" class="button1">注文</button>
+                        </div>
+                    </li>
+                    <li>
+                        <label class="no86">
+                            <img src="../img/半熟煮卵のポテトサラダ.png" alt="半熟煮卵のポテトサラダ">
+                            <p>半熟煮卵のポテトサラダ</p>
+                        </label>
+                        <div class="ono86" id="pop">
+                            <div class="close">×</div>
+                            <img src="../img/半熟煮卵のポテトサラダ.png" alt="半熟煮卵のポテトサラダ">
+                            <div class="price">
+                                <p><span id="sum">480</span>円</p>
+                            </div>
+                            <div class="spinner-container">
+                                <span class="spinner-sub">-</span>
+                                <input class="spinner" type="number" min="1" max="10" value="1">
+                                <span class="spinner-add">+</span>
+                            </div>
+                            <button type="submit" class="button1">注文</button>
+                        </div>
+                    </li> 
+                </div>
+            </ul>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="../js/pop.js"></script>
+</body>
+</html>

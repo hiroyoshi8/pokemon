@@ -1,0 +1,15 @@
+html {
+    background-image: url(../img/login.png);
+    background-size: cover;
+    background-position: bottom; 
+}
+
+h2 span{
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
+
+.main{
+    text-align: center;
+}

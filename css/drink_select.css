@@ -1,0 +1,150 @@
+/*--common--*/
+
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    vertical-align:top;
+}
+
+/*--body--*/
+
+body{
+    background-image: url(../img/注文画面背景.png);
+    background-size: cover;
+
+}
+
+.select{
+    width: 80%;
+    margin: 0 auto;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.select button{
+    height: 50vh;
+    width: 40%;
+    border-radius: 24px;
+    box-shadow: 0px 10px 10px -6px rgba(0, 0, 0, 0.3);
+}
+
+.no1{
+    background-image: url(../img/_ノンアルコール.png);
+    background-size: cover
+}
+
+.no2{
+    background-image: url(../img/_アルコール.png);
+    background-size: cover
+}
+
+.order{
+    background-color: skyblue;
+    width: 700px;
+    height: 550px;
+    border-radius: 16px;
+	justify-content: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+    display: none;
+    text-align: center;
+    z-index: 999;
+}
+
+.order h3{
+    margin: 24px 0;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.order table{
+    width: 80%;
+    margin: 0 auto;border:2px solid #fff;
+    border-collapse: collapse;
+}
+
+.order th{
+    padding: 8px;
+    border:2px solid #fff;
+    border-collapse: collapse;
+}
+
+.order td{
+    padding: 8px 0;
+    border:2px solid #fff;
+    border-collapse: collapse;
+}
+
+.order button{
+    margin-top: 24px;
+    padding: 8px 24px;
+    color: #000;
+    font-weight: bold;
+    box-shadow: 0px 5px 0 #000;
+    transition: .3s;
+}
+
+.close1{
+    text-align: right;
+    margin-right: 16px;
+    margin-top: 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.home_item3 button{
+    display: inline-block;
+    border-radius: 16px;
+    padding: 12px 32px;
+    margin-left: 32px;
+    background-color: #fff;
+    border: #000 1px solid;
+    box-shadow: 0px 5px 0 #000;
+    transition: .3s;
+}
+
+.order button:hover {
+    box-shadow: none;
+    transform: translateY(4px);
+}
+.cart{
+    margin-top: 16px;
+    font-size: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cart1{
+    margin-left: 24px;
+}
+
+#cart2{
+    margin-right: 24px;
+}
+
+
+.tab {
+    margin-top: 8px;
+}

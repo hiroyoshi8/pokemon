@@ -1,0 +1,402 @@
+/*--common--*/
+
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    vertical-align:top;
+}
+
+/*--body--*/
+
+.tab{
+    margin-top: 60px;
+}
+
+.normal6 ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 60px 60px;
+    
+}
+
+.tab li{
+    border: #2589d0 1px solid;
+    width: 30%;
+    height: 230px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+}
+
+.tab p{
+    text-align: center;
+    padding-top: 8px;
+    font-size: 24px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.scroll ul{
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.scroll li{
+    display: inline-block;
+    margin-right: 24px;
+    height: 250px;
+}
+
+.scroll_item:last-of-type{
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+/*-------------------------*/
+
+#pop{
+    background-color: #7fff7f;
+    width: 700px;
+    height: 550px;
+    border-radius: 16px;
+	justify-content: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+    display: none;
+    text-align: center;
+    z-index: 999;
+}
+
+#pop img{
+    width: 480px;
+    height: 250px;
+    border-radius: 16px;
+}
+
+.close{
+    text-align: right;
+    margin-right: 16px;
+    margin-top: 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.price {
+    margin-top: 32px;
+    font-size: 32px;
+    color: red;
+}
+
+.spinner-container {
+	display: flex;
+	justify-content: center;
+	user-select: none;
+}
+  
+.spinner {
+	width: 100px;
+	font-size: 18px;
+	padding: 0;
+	text-align: center;
+	border: none;
+	background: none;
+	outline: none;
+	pointer-events: none;
+}
+
+.spinner-container input{
+	display: block;
+}
+  
+.spinner-sub,
+.spinner-add {
+	display: block;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	border: 1px solid #000;
+	border-radius: 50%;
+	cursor: pointer;
+	line-height: 35px;
+}
+
+ul li label p{
+    text-align: center;
+	font-size: 22px;
+	margin-top: 12px;
+	border-bottom: #000 1px solid;
+}
+
+ul li button{
+	margin-top: 16px;
+	padding: 12px 40px;
+	background-color: #2589d0;
+	color: #fff;
+	border: none;
+	border-radius: 32px;
+	font-size: 18px;
+}
+
+/*-------------------------*/
+
+#pop{
+    background-color: #ffdab9;
+    width: 700px;
+    height: 550px;
+    border-radius: 16px;
+	justify-content: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+    display: none;
+    text-align: center;
+    z-index: 999;
+}
+
+#pop img{
+    width: 480px;
+    height: 250px;
+    border-radius: 16px;
+}
+
+.close{
+    text-align: right;
+    margin-right: 16px;
+    margin-top: 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.price {
+    margin-top: 32px;
+    font-size: 32px;
+    color: #000000;
+}
+
+.spinner-container {
+	display: flex;
+	justify-content: center;
+	user-select: none;
+}
+  
+.spinner {
+	width: 100px;
+	font-size: 18px;
+	padding: 0;
+	text-align: center;
+	border: none;
+	background: none;
+	outline: none;
+	pointer-events: none;
+}
+
+.spinner-container input{
+	display: block;
+}
+  
+.spinner-sub,
+.spinner-add {
+	display: block;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	border: 1px solid #000;
+	border-radius: 50%;
+	cursor: pointer;
+	line-height: 35px;
+}
+
+ul li label p{
+    text-align: center;
+	font-size: 22px;
+	margin-top: 12px;
+	border-bottom: #000 1px solid;
+}
+
+ul li button{
+	margin-top: 16px;
+	padding: 12px 40px;
+	background-color: #2589d0;
+	color: #fff;
+	border: none;
+	border-radius: 32px;
+	font-size: 18px;
+}
+
+.order{
+    background-color: skyblue;
+    width: 700px;
+    height: 550px;
+    border-radius: 16px;
+	justify-content: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+    display: none;
+    text-align: center;
+    z-index: 999;
+}
+
+.order h3{
+    margin: 24px 0;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.order table{
+    width: 80%;
+    margin: 0 auto;border:2px solid #fff;
+    border-collapse: collapse;
+}
+
+.order th{
+    padding: 8px;
+    border:2px solid #fff;
+    border-collapse: collapse;
+}
+
+.order td{
+    padding: 8px 0;
+    border:2px solid #fff;
+    border-collapse: collapse;
+}
+
+.order button{
+    margin-top: 24px;
+    padding: 8px 24px;
+    color: #000;
+    font-weight: bold;
+    box-shadow: 0px 5px 0 #000;
+    transition: .3s;
+}
+
+.close1{
+    text-align: right;
+    margin-right: 16px;
+    margin-top: 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.home_item3 button{
+    display: inline-block;
+    border-radius: 16px;
+    padding: 12px 32px;
+    margin-left: 32px;
+    background-color: #fff;
+    border: #000 1px solid;
+    box-shadow: 0px 5px 0 #000;
+    transition: .3s;
+}
+
+.order button:hover {
+    box-shadow: none;
+    transform: translateY(4px);
+}
+.cart{
+    margin-top: 16px;
+    font-size: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cart1{
+    margin-left: 24px;
+}
+
+#cart2{
+    margin-right: 24px;
+}
+
+
+.tab {
+    margin-top: 8px;
+}
+
+.order button:hover {
+    box-shadow: none;
+    transform: translateY(4px);
+}
+.cart{
+    margin-top: 16px;
+    font-size: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cart1{
+    margin-left: 24px;
+}
+
+#cart2{
+    margin-right: 24px;
+}
+
+
+.tab {
+    margin-top: 8px;
+}
+ 
+
+
+.order dl{
+    width: 80%;
+    margin: 24px auto 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: #fff 2px solid;
+    align-items: center;
+}
+
+.order dt{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.order .qaz{
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 4px;
+}
+
+.order_img{
+    display: none;
+    width: 700px;
+    height: 550px;
+    border-radius: 16px;
+	justify-content: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    z-index: 999;
+    background-color: red;
+}
+body{
+    background-image: url(../img/注文画面背景.png);
+    background-size: cover;
+
+}
